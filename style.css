@@ -107,7 +107,7 @@ padding:5px;
 margin:10px 15px;
 }
 
-header a:link {
+header a:link, header a:visited, header a:active {
 color: #bc6c25;
 }
 
@@ -115,10 +115,6 @@ header a:hover {
 background-color: #fefae0;
 border:1px solid #fff;
 border-radius:8px;
-}
-
-header a:visited, a:active {
-color: #fefae0;
 }
 
 .contactMe a {
