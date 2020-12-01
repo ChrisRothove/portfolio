@@ -1,0 +1,71 @@
+/*Fix Box sizing for entire webpage*/
+* {
+box-sizing:border-box;
+}
+
+/*formating for header/footer*/
+
+.topBottom {
+background-color: #283618;
+}
+
+.topBottom h1 {
+color: #606c38;
+font-family: 'texturina', serif;
+font-weight: 700;
+text-align:center;
+margin:auto;
+font-size: 22pt;
+}
+
+.topBottom h3 {
+color: #606c38;
+font-family: 'overpass', sans-serif;
+font-weight:100;
+text-align:center;
+margin:auto;
+font-size:9pt;
+}
+
+/*formatting for body/main*/
+body {
+background-color: #dda15e;
+}
+
+main p, main h2 {
+color: #283618;
+}
+
+main p {
+font-family: 'overpass', sans-serif;
+font-weight:400;
+text-align: justify;
+font-size:12pt;
+}
+
+main h2 {
+font-family: 'texturina', serif;
+font-weight: 300;
+text-align:left;
+font-size:16pt;
+}
+
+a {
+text-decoration:none;
+padding:15px;
+margin:10px 15px;
+}
+
+a:link {
+color: #bc6c25;
+}
+
+a:hover {
+background-color: #fefae0;
+border:1px solid #fff;
+border-radius:8px;
+}
+
+a:visited, a:active {
+color: #fefae0;
+}

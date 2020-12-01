@@ -1,24 +1,27 @@
 <DOCTYPE html>
 
 <html>
-
+<!-- Head Element -->
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <title>Portfolio - Chris Rothove</title>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
 <link href="style.css" rel="stylesheet" type="text/css" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@100;400&family=Texturina:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 
+<!--body Starts here with header for name and nav links-->
 <body>
-<header>
+<header class="topBottom">
 <h1>Chris Rothove</h1>
-<h2>Software. Design. Illustration.</h2>
+<h3>Software. Design. Illustration.</h3>
 
 <nav>
-<a href="">Home</a>
-<a href="">About</a>
-<a href="">Contact Me</a>
+<a href=".intro">Home</a>
+<a href=".aboutMe">About</a>
+<a href=".contactMe">Contact Me</a>
 </nav>
 </header>
 
@@ -55,8 +58,8 @@
 </article>
 </main>
 
-<footer>
-<p>© Christopher Rothove 2020. All Rights Reserved.</p>
+<footer class="topBottom">
+<h3>© Christopher Rothove 2020. All Rights Reserved.</h3>
 </footer>
 </body>
 
