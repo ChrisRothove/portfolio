@@ -50,6 +50,30 @@ text-align:left;
 font-size:16pt;
 }
 
+hr {
+width:110%;
+}
+
+.intro {
+width: 500px;
+}
+
+.pic > img {
+border: 1px solid #283618;
+border-radius: 8px 0px 0px 8px;
+width:250px;
+height:350px;
+}
+
+article > section {
+padding:15px;
+}
+
+.intro p, aboutMe p {
+text-indent:8px;
+}
+
+/*formatting for links*/
 a {
 text-decoration:none;
 padding:15px;
