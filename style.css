@@ -46,7 +46,7 @@ main p, main h2 {
 color: #283618;
 }
 
-main p, ul {
+main p, ul, ol {
 font-family: 'overpass', sans-serif;
 font-weight:400;
 text-align: justify;
