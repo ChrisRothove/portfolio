@@ -1,36 +1,36 @@
 /*Fix Box sizing for entire webpage*/
 * {
-box-sizing:border-box;
+  box-sizing: border-box;
 }
 
 /*formating for header/footer*/
 
-.topBottom {
-background-color: #283618;
-height:100px;
+header, footer {
+  background: #283618;
+  height: 120px;
 }
 
-.topBottom h1 {
-color: #606c38;
-font-family: 'texturina', serif;
-font-weight: 700;
-text-align:center;
-margin:auto;
-font-size: 30pt;
+header h1, footer h1 {
+  color: #dda15e;
+  font-family: 'texturina', serif;
+  font-weight: 700;
+  text-align: center;
+  margin: auto;
+  font-size: 40pt;
 }
 
-.topBottom h3, nav {
-color: #606c38;
-font-family: 'overpass', sans-serif;
-font-weight:100;
-text-align:center;
-margin:auto;
-font-size:9pt;
+header h2, footer h2, nav {
+  color: #dda15e;
+  font-family: 'overpass', sans-serif;
+  font-weight: 100;
+  text-align: center;
+  margin: auto;
+  font-size: 12pt;
 }
 
 nav {
-  margin-top:10px;
-  font-size:11pt;
+  margin-top: 10px;
+  font-size: 11pt;
 }
 
 footer {
@@ -39,85 +39,93 @@ footer {
 
 /*formatting for body/main*/
 body {
-background-color: #dda15e;
+  background-color: #dda15e;
 }
 
-main p, main h2 {
-color: #283618;
+main p, main h3 {
+  color: #283618;
 }
 
-main p, ul, ol {
-font-family: 'overpass', sans-serif;
-font-weight:400;
-text-align: justify;
-font-size:11.5pt;
+main p, ul {
+  font-family: 'overpass', sans-serif;
+  font-weight: 400;
+  text-align: justify;
+  font-size: 11.5pt;
 }
 
-main h2 {
-font-family: 'texturina', serif;
-font-weight: 300;
-text-align:left;
-font-size:20pt;
+main h3 {
+  font-family: 'texturina', serif;
+  font-weight: 300;
+  text-align: left;
+  font-size: 20pt;
+  text-align: center;
 }
 
 hr {
-width:400px;
-height:2px;
-background-color:#283618;
-border:none;
+  width: 480px;
+  height: 2px;
+  background-color: #283618;
+  border: none;
 }
 
-.intro {
-width: 600px;
-margin:auto;
-margin-top:20px;
+.intro, .about, .contact {
+  width: 600px;
+  margin: auto;
+  margin-top: 20px;
 }
 
-.intro p, .aboutMe p {
-text-indent:15px;
+.intro p, .about p {
+  text-indent: 15px;
 }
-
-.aboutMe, .contactMe {
-width:400px;
-margin:auto;
-}
+/* edited out
+.about, .contact {
+  width:400px;
+  margin:auto;
+}*/
 
 section {
-padding:5px 15px;
+  padding: 5px 15px;
 }
 
+.contact p {
+  text-align: center;
+}
 /*formatting images*/
 
 .pic > img {
-border: 1px solid #283618;
-border-radius: 8px 0px 0px 8px;
-width:250px;
-height:350px;
+  border: 1px solid #283618;
+  border-radius: 8px 0px 0px 8px;
+  width: 250px;
+  height: 350px;
 }
 
-.contactMe img {
-  width:35px;
-  margin:10px 15px;
+.contact img {
+  width: 35px;
+  margin: 10px 15px;
 }
 
 /*formatting for links*/
-header a {
-text-decoration:none;
-padding:5px;
-margin:10px 15px;
+a {
+  text-decoration: none;
+  padding: 5px;
+  margin: 10px 15px;
 }
 
-header a:link, header a:visited, header a:active {
-color: #bc6c25;
+header a:link {
+  color: #dda15e;
 }
 
-header a:hover {
-background-color: #fefae0;
-border:1px solid #fff;
-border-radius:8px;
+a:hover {
+  background-color: #fefae0;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  margin: 10px 14px;
 }
 
-.contactMe a {
-  color:#606c38;
-  text-decoration:none;
+header a:visited, a:active {
+  color: #dda15e;
+}
+
+.contact a {
+  color: #606c38;
 }
