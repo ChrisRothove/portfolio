@@ -23,11 +23,40 @@
 </header>
 
 <main>
+<article class="intro">
+<div class="pic"><img src="avatar.jpg"></div>
+<section><h2>Welcome, traveler</h2>
+<p>I'm an artist and web designer living in Kansas City Missouri. If your journey has led you to my door, you must be seeking someone with my particular skill set. Here are some important things about me.</p>
+<ul>
+<li>Web designs that tell stories</li>
+<li>working with others on engaging, challenging projects</li>
+<li>Traditional and digital art forms and personal expression</li>
+<li>Videogame design</li>
+</ul>
+</section>
+<hr>
+</article>
+<article class="aboutMe">
+<h2>My Journey</h2>
+<p>I graduated from the Kansas City Art Institute with a bachelors degree in Fine Art focused on Illustration. While I enjoyed my time at that school, I quickly found that it wasn't something I was prepared to spend my life doing. Too many artists find commercial work and stop creating material they enjoy. I worked in the Printing industry for a little while following my relocation to Kansas City from Excelsior Springs. I enjoyed that work as well, but in two years I was laid off from two different companies. The first was a company called Henry Wurst, which went bankrupt. The second was a company called Modern Litho, who was forced to lay me off due to the outbreak of Covid-19. The printing industry still hasn't recovered, with many events such as concerts, conventions, and the like being suspended during the crisis.</p>
 
+<p>With Printing going under as a result of the virus, I decided to take matters into my own hands and start a new career that hopefully would provide me more sustainability. This led me to discover Thinkful. I saw an add on facebook of all places, and after doing a month or so of research and talking to people, I finally decided to take the plunge on this journey.</p>
+
+<p>So now, here I am. Excersizing creative muscles I've always had in interesting new ways. And I'm excited to see where the next stage of my journey takes me.</p>
+<hr>
+</article>
+<article class="contactMe">
+<h2>Contact Me</h2>
+<a href="https://twitter.com/wayfarerdraws"><img src="social-images/twitter.png"></a>
+<a href=""><img src="social-images/linkedin.png"></a>
+<a href="https://github.com/ChrisRothove"><img src="social-images/github.png"></a>
+<p>You can reach me at any of the above locations, or email me directly at:</p>
+<p>vacantorange@gmail.com</p>
+</article>
 </main>
 
 <footer>
-
+<p>© Christopher Rothove 2020. All Rights Reserved.</p>
 </footer>
 </body>
 
