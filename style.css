@@ -64,7 +64,7 @@ main h3 {
 hr {
   width: 480px;
   height: 2px;
-  background-color: #283618;
+  background: #283618;
   border: none;
 }
 
@@ -117,7 +117,7 @@ a:link {
 
 .contact a {
   color: #dda15e;
-  background-color: #283618;
+  background: #283618;
   border: 1px solid #283618;
   border-radius: 8px;
   margin: 10px 14px;
@@ -129,7 +129,7 @@ a:visited, a:active {
 
 a:hover {
   color: #283618;
-  background-color: #fefae0;
+  background: #fefae0;
   border: 1px solid #fff;
   border-radius: 8px;
   margin: 10px 14px;
