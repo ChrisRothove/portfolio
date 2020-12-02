@@ -111,21 +111,28 @@ a {
   margin: 10px 15px;
 }
 
-header a:link {
+a:link {
+  color: #dda15e;
+}
+
+.contact a {
+  color: #dda15e;
+  background-color: #283618;
+  border: 1px solid #283618;
+  border-radius: 8px;
+  margin: 10px 14px;
+}
+
+a:visited, a:active {
   color: #dda15e;
 }
 
 a:hover {
+  color: #283618;
   background-color: #fefae0;
   border: 1px solid #fff;
   border-radius: 8px;
   margin: 10px 14px;
 }
 
-header a:visited, a:active {
-  color: #dda15e;
-}
 
-.contact a {
-  color: #606c38;
-}
